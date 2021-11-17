@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #161616;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+/*table*/
+.logo {
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+width: 1005px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 4s steps(50, end);
+    animation: type 4s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+.enn {
+    opacity: 0.5;
+    transition: .2s linear, color .2s linear;
+    height: 500px;
+    padding-left: 5%;
+    margin-top: -90px;
+      
+}.enn:hover {
+        opacity: 1;
+      }
+.triss {
+    display: block;
+    opacity: 0.5;
+    transition: .2s linear, color .2s linear;
+    margin-right: 20%;
+    height: 400px;
+      
+}.triss:hover {
+        opacity: 1;
+      }
+
+
+.enn_text {
+    font-size: 30px;
+    padding-bottom: 5%;
+    width: 50%;
+    color: #fff;
+}
+.triss_text {
+    width: 50%;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 5%;
+}
+.table1 {
+   width: 80%;
+   text-align: center;
+   margin: 5% auto 0;
+    
+
+}
+.girls2 {
+   display: flex;
+   justify-content: space-around;
+width: 80%;
+margin: 0 auto 5%;
+    margin-bottom: 0;
+    margin-top: -20px;
+}
+
+
